@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MyConcernCell.myConcern.didset:MyConcernCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "avatarImageView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Session.request(_:interceptor:):Session.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SettingViewController.viewDidLoad():SettingViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "sections">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in static NetworkToolProtocol.loadHomeNewsTitleData(completionHandler:):NetworkTool.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

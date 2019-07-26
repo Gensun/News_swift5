@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserDetailViewController" customModule="HeadNews" customModuleProvider="target">
+            <connections>
+                <outlet property="bottomViewBottom" destination="wXb-SL-pCj" id="ncK-QY-qW1"/>
+                <outlet property="bottomViewHeight" destination="H5I-Ny-GbP" id="u0N-Ng-YX8"/>
+                <outlet property="bottomview" destination="6Q8-Pm-y6h" id="Ub5-Cn-nA7"/>
+                <outlet property="tableView" destination="vMt-8k-doE" id="QmQ-6v-ZtG"/>
+                <outlet property="view" destination="bXG-4a-IKu" id="bfV-RA-f5s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bXG-4a-IKu">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Q8-Pm-y6h">
+                    <rect key="frame" x="0.0" y="896" width="414" height="0.0"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="H5I-Ny-GbP"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="1" estimatedRowHeight="-1" sectionHeaderHeight="40" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vMt-8k-doE" customClass="UserDetailTableView" customModule="HeadNews" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ry7-MY-nCW"/>
+                        <outlet property="delegate" destination="-1" id="0hO-Xe-RYg"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="6Q8-Pm-y6h" firstAttribute="leading" secondItem="bXG-4a-IKu" secondAttribute="leading" id="5vn-em-xKm"/>
+                <constraint firstItem="vMt-8k-doE" firstAttribute="leading" secondItem="bXG-4a-IKu" secondAttribute="leading" id="EeG-K1-dYw"/>
+                <constraint firstAttribute="trailing" secondItem="vMt-8k-doE" secondAttribute="trailing" id="PYf-92-ITa"/>
+                <constraint firstAttribute="trailing" secondItem="6Q8-Pm-y6h" secondAttribute="trailing" id="bou-bb-aLe"/>
+                <constraint firstItem="vMt-8k-doE" firstAttribute="top" secondItem="bXG-4a-IKu" secondAttribute="top" id="dEZ-5r-g8S"/>
+                <constraint firstItem="6Q8-Pm-y6h" firstAttribute="top" secondItem="vMt-8k-doE" secondAttribute="bottom" id="sZy-we-weE"/>
+                <constraint firstAttribute="bottom" secondItem="6Q8-Pm-y6h" secondAttribute="bottom" id="wXb-SL-pCj"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="N3O-uA-fty"/>
+        </view>
+    </objects>
+</document>

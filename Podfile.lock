@@ -1,0 +1,103 @@
+PODS:
+  - AdobeMobileSDK (4.18.1):
+    - AdobeMobileSDK/iOS (= 4.18.1)
+  - AdobeMobileSDK/iOS (4.18.1)
+  - Alamofire (5.0.0-beta.4)
+  - BMPlayer (1.2.1):
+    - BMPlayer/Full (= 1.2.1)
+  - BMPlayer/Core (1.2.1)
+  - BMPlayer/Full (1.2.1):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.6.1)
+    - SnapKit (~> 4.2.0)
+  - FDFullscreenPopGesture (1.1)
+  - HandyJSON (5.0.0-beta)
+  - IBAnimatable (5.2.1)
+  - Kingfisher (4.10.1)
+  - lottie-ios (3.0.3)
+  - MJRefresh (3.1.15.7)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - SGPagingView (1.5.5)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.33.0)
+  - SwiftTheme (0.4.3)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - AdobeMobileSDK
+  - Alamofire (~> 5.0.0-beta.3)
+  - BMPlayer
+  - FDFullscreenPopGesture
+  - HandyJSON (= 5.0.0-beta)
+  - IBAnimatable
+  - Kingfisher
+  - lottie-ios
+  - MJRefresh
+  - RxCocoa
+  - RxSwift
+  - SGPagingView
+  - SQLite.swift
+  - SVProgressHUD
+  - SwiftLint
+  - SwiftTheme
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AdobeMobileSDK
+    - Alamofire
+    - BMPlayer
+    - FDFullscreenPopGesture
+    - HandyJSON
+    - IBAnimatable
+    - Kingfisher
+    - lottie-ios
+    - MJRefresh
+    - NVActivityIndicatorView
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SGPagingView
+    - SnapKit
+    - SQLite.swift
+    - SVProgressHUD
+    - SwiftLint
+    - SwiftTheme
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  AdobeMobileSDK: 55f1339166395cd7151ab4db9be3ecb0acfff6fc
+  Alamofire: 6458d95477bc40adf10129f22c67cfb014162dc8
+  BMPlayer: ea12f9d82e37f968dea2078b5e58e356ee4439d8
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  HandyJSON: b84ac9904050a0897a0802092b7cb8808e0a4e9a
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  lottie-ios: 06e0b54aab85ba128e332687d7f4ac4861a7a7ae
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  SGPagingView: 8054435c0149cf907ad3d515bc75e0ee9575216c
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: fed9c66336e41fc74dc48a73678380718f0c8b0e
+  SwiftTheme: 628345b948068a48d330d76dffb1a990ea5f90aa
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 7b0d904a13b58bca73115f0dcc06a62af36846e9
+
+COCOAPODS: 1.7.0.beta.3

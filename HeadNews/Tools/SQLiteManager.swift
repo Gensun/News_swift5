@@ -73,7 +73,7 @@ struct NewTitleTable {
         let title = new_title.filter(category == title.category.rawValue)
         // 判断该条数据是否存在，没有直接的方法
         // 可以根据 count 是否是 0 来判断是否存在这条数据，0 表示没有该条数据，1 表示存在该条数据
-        let count = try! sqlManager.database.scalar(title.count)
+        let count = try? sqlManager.database.scalar(title.count)
         return count != 0
     }
 

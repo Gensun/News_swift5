@@ -13,6 +13,8 @@ public let notAnimateTag = 666
 class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
     var smallVideo = NewsModel() {
         didSet {
+            stopLoading()
+            closeButton.isHidden = false
             titleLabel.attributedText = smallVideo.raw_data.attrbutedText
             if let largeImage = smallVideo.raw_data.large_image_list.first {
                 if let url = URL(string: largeImage.urlString) {
@@ -23,11 +25,8 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
                    imageView.kf.setImage(with: url)
                 }
             }
-            if ((imageView?.image) != nil) {
-                diggCountLabel.text = smallVideo.raw_data.action.diggCount + "赞"
-                playCountButton.setTitle(smallVideo.raw_data.action.playCount + "次播放", for: .normal)
-                stopLoading()
-            }
+            diggCountLabel.text = smallVideo.raw_data.action.diggCount + "赞"
+            playCountButton.setTitle(smallVideo.raw_data.action.playCount + "次播放", for: .normal)
         }
     }
 
@@ -88,8 +87,8 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
     private var isLoading = false
   
     override func prepareForReuse() {
-        defaultState()
         super.prepareForReuse()
+        defaultState()
     }
 
     private func defaultState() {

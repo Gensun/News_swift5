@@ -92,7 +92,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Module/Volcano/ViewController/VolcanoViewController.swift"
-            timestampString = "585820135.381899"
+            timestampString = "585829782.951272"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -108,7 +108,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Module/Volcano/ViewController/VolcanoViewController.swift"
-            timestampString = "585820135.382255"
+            timestampString = "585829782.951332"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
@@ -124,7 +124,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Module/Volcano/ViewController/VolcanoViewController.swift"
-            timestampString = "585820135.382457"
+            timestampString = "585829782.951373"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -172,13 +172,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Network/NetworkTool.swift"
-            timestampString = "585743953.329255"
+            timestampString = "586071675.972614"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "407"
-            endingLineNumber = "407"
-            landmarkName = "parseVideoRealURL(video_id:completionHandler:)"
-            landmarkType = "7">
+            endingLineNumber = "407">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -188,13 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Network/NetworkTool.swift"
-            timestampString = "585743953.329313"
+            timestampString = "586071675.972683"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "407"
-            endingLineNumber = "407"
-            landmarkName = "parseVideoRealURL(video_id:completionHandler:)"
-            landmarkType = "7">
+            endingLineNumber = "407">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -292,13 +288,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Network/NetworkTool.swift"
-            timestampString = "585743953.3298711"
+            timestampString = "586071675.972836"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "407"
-            endingLineNumber = "407"
-            landmarkName = "parseVideoRealURL(video_id:completionHandler:)"
-            landmarkType = "7">
+            endingLineNumber = "407">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -340,7 +334,7 @@
                   moduleName = "HeadNews"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Documents/study/HeadNews/HeadNews/Module/Volcano/ViewController/SmallVideoViewController.swift"
-                  timestampString = "585820095.410302"
+                  timestampString = "586075604.504564"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "68"
@@ -355,7 +349,7 @@
                   moduleName = "HeadNews"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Documents/study/HeadNews/HeadNews/Module/Volcano/ViewController/SmallVideoViewController.swift"
-                  timestampString = "585820095.412438"
+                  timestampString = "586075604.506585"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "70"
@@ -372,12 +366,58 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Network/NetworkTool.swift"
-            timestampString = "585743953.330132"
+            timestampString = "586071675.97295"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "407"
-            endingLineNumber = "407"
-            landmarkName = "parseVideoRealURL(video_id:completionHandler:)"
+            endingLineNumber = "407">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeadNews/Network/NetworkTool.swift"
+            timestampString = "586071675.973052"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "loadHomeNewsTitleData(completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeadNews/Tools/SQLiteManager.swift"
+            timestampString = "586075604.118938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "exist(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HeadNews/Module/Home/ViewController/HomeJokeViewController.swift"
+            timestampString = "586075604.119011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

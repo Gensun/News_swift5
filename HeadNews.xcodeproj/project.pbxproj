@@ -31,6 +31,24 @@
 		8428A55F225C888100ACD3F4 /* settingPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D0677B22533A4E00EA8ED7 /* settingPlist.plist */; };
 		8428A562225C91F900ACD3F4 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428A560225C91F900ACD3F4 /* SettingCell.swift */; };
 		8428A563225C91F900ACD3F4 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8428A561225C91F900ACD3F4 /* SettingCell.xib */; };
+		8433C54622EEA50300E34765 /* HomeJokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C54522EEA50300E34765 /* HomeJokeViewController.swift */; };
+		8433C54822EEA50C00E34765 /* HomeImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C54722EEA50C00E34765 /* HomeImageViewController.swift */; };
+		8433C54A22EEA52900E34765 /* HomeRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C54922EEA52900E34765 /* HomeRecommendController.swift */; };
+		8433C54C22EEA54300E34765 /* TeMaiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C54B22EEA54300E34765 /* TeMaiViewController.swift */; };
+		8433C54F22EEA66C00E34765 /* HomeJokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C54D22EEA66C00E34765 /* HomeJokeCell.swift */; };
+		8433C55222EEA74F00E34765 /* HomeJokeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C55122EEA74F00E34765 /* HomeJokeCell.xib */; };
+		8433C55422EEBFCC00E34765 /* HomeUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C55322EEBFCC00E34765 /* HomeUserCell.swift */; };
+		8433C55622EEBFF000E34765 /* TheyAlsoUseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C55522EEBFF000E34765 /* TheyAlsoUseCell.swift */; };
+		8433C55822EEC00000E34765 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C55722EEC00000E34765 /* HomeCell.swift */; };
+		8433C55C22EEC04B00E34765 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C55922EEC04A00E34765 /* HomeCell.xib */; };
+		8433C55D22EEC04B00E34765 /* HomeUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C55A22EEC04A00E34765 /* HomeUserCell.xib */; };
+		8433C55E22EEC04B00E34765 /* TheyAlsoUseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C55B22EEC04A00E34765 /* TheyAlsoUseCell.xib */; };
+		8433C56022EEC5A200E34765 /* HomeImageCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C55F22EEC5A200E34765 /* HomeImageCollectionView.swift */; };
+		8433C56222EEC5FC00E34765 /* HomeImageCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C56122EEC5FC00E34765 /* HomeImageCollectionView.xib */; };
+		8433C56622EEC6C800E34765 /* HomeImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C56522EEC6C800E34765 /* HomeImageCell.xib */; };
+		8433C56A22EEC72B00E34765 /* HomeImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C56922EEC72B00E34765 /* HomeImageCell.swift */; };
+		8433C56C22EEC89000E34765 /* TheyUseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433C56B22EEC89000E34765 /* TheyUseCollectionCell.swift */; };
+		8433C56E22EEC8A800E34765 /* TheyUseCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8433C56D22EEC8A800E34765 /* TheyUseCollectionCell.xib */; };
 		84342B0422E5A13300140C1D /* VolcanoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84342B0222E5A13300140C1D /* VolcanoTableViewCell.swift */; };
 		84342B0522E5A13300140C1D /* VolcanoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84342B0322E5A13300140C1D /* VolcanoTableViewCell.xib */; };
 		8440717322E6BC73006D2441 /* SVProgressHUD+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440717222E6BC73006D2441 /* SVProgressHUD+Extension.swift */; };
@@ -129,6 +147,24 @@
 		8428A559225C7C9500ACD3F4 /* SettingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingModel.swift; sourceTree = "<group>"; };
 		8428A560225C91F900ACD3F4 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
 		8428A561225C91F900ACD3F4 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
+		8433C54522EEA50300E34765 /* HomeJokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJokeViewController.swift; sourceTree = "<group>"; };
+		8433C54722EEA50C00E34765 /* HomeImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageViewController.swift; sourceTree = "<group>"; };
+		8433C54922EEA52900E34765 /* HomeRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecommendController.swift; sourceTree = "<group>"; };
+		8433C54B22EEA54300E34765 /* TeMaiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeMaiViewController.swift; sourceTree = "<group>"; };
+		8433C54D22EEA66C00E34765 /* HomeJokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeJokeCell.swift; sourceTree = "<group>"; };
+		8433C55122EEA74F00E34765 /* HomeJokeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeJokeCell.xib; sourceTree = "<group>"; };
+		8433C55322EEBFCC00E34765 /* HomeUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUserCell.swift; sourceTree = "<group>"; };
+		8433C55522EEBFF000E34765 /* TheyAlsoUseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheyAlsoUseCell.swift; sourceTree = "<group>"; };
+		8433C55722EEC00000E34765 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8433C55922EEC04A00E34765 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		8433C55A22EEC04A00E34765 /* HomeUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeUserCell.xib; sourceTree = "<group>"; };
+		8433C55B22EEC04A00E34765 /* TheyAlsoUseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheyAlsoUseCell.xib; sourceTree = "<group>"; };
+		8433C55F22EEC5A200E34765 /* HomeImageCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageCollectionView.swift; sourceTree = "<group>"; };
+		8433C56122EEC5FC00E34765 /* HomeImageCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeImageCollectionView.xib; sourceTree = "<group>"; };
+		8433C56522EEC6C800E34765 /* HomeImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeImageCell.xib; sourceTree = "<group>"; };
+		8433C56922EEC72B00E34765 /* HomeImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeImageCell.swift; sourceTree = "<group>"; };
+		8433C56B22EEC89000E34765 /* TheyUseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheyUseCollectionCell.swift; sourceTree = "<group>"; };
+		8433C56D22EEC8A800E34765 /* TheyUseCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TheyUseCollectionCell.xib; sourceTree = "<group>"; };
 		84342B0222E5A13300140C1D /* VolcanoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolcanoTableViewCell.swift; sourceTree = "<group>"; };
 		84342B0322E5A13300140C1D /* VolcanoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VolcanoTableViewCell.xib; sourceTree = "<group>"; };
 		8440717222E6BC73006D2441 /* SVProgressHUD+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SVProgressHUD+Extension.swift"; sourceTree = "<group>"; };
@@ -422,6 +458,10 @@
 			children = (
 				84FAA279224E06020036642D /* HomeViewController.swift */,
 				848D61EC22E9B81A0043F314 /* HomeTableViewController.swift */,
+				8433C54522EEA50300E34765 /* HomeJokeViewController.swift */,
+				8433C54722EEA50C00E34765 /* HomeImageViewController.swift */,
+				8433C54922EEA52900E34765 /* HomeRecommendController.swift */,
+				8433C54B22EEA54300E34765 /* TeMaiViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -440,6 +480,20 @@
 			children = (
 				848D61E322E9A1090043F314 /* HomeNavigationView.swift */,
 				848D61E522E9A1310043F314 /* HomeNavigationView.xib */,
+				8433C54D22EEA66C00E34765 /* HomeJokeCell.swift */,
+				8433C55122EEA74F00E34765 /* HomeJokeCell.xib */,
+				8433C55322EEBFCC00E34765 /* HomeUserCell.swift */,
+				8433C55A22EEC04A00E34765 /* HomeUserCell.xib */,
+				8433C55522EEBFF000E34765 /* TheyAlsoUseCell.swift */,
+				8433C55B22EEC04A00E34765 /* TheyAlsoUseCell.xib */,
+				8433C55722EEC00000E34765 /* HomeCell.swift */,
+				8433C55922EEC04A00E34765 /* HomeCell.xib */,
+				8433C55F22EEC5A200E34765 /* HomeImageCollectionView.swift */,
+				8433C56122EEC5FC00E34765 /* HomeImageCollectionView.xib */,
+				8433C56922EEC72B00E34765 /* HomeImageCell.swift */,
+				8433C56522EEC6C800E34765 /* HomeImageCell.xib */,
+				8433C56B22EEC89000E34765 /* TheyUseCollectionCell.swift */,
+				8433C56D22EEC8A800E34765 /* TheyUseCollectionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -647,17 +701,24 @@
 				8428A55F225C888100ACD3F4 /* settingPlist.plist in Resources */,
 				84D4836E22E5C027000EC655 /* VolcanoChildViewController.xib in Resources */,
 				840EA1182261D5A100E095C6 /* UserDetailView.xib in Resources */,
+				8433C56222EEC5FC00E34765 /* HomeImageCollectionView.xib in Resources */,
 				84D067372252612600EA8ED7 /* NoLoginHeaderView.xib in Resources */,
+				8433C56622EEC6C800E34765 /* HomeImageCell.xib in Resources */,
 				8428A563225C91F900ACD3F4 /* SettingCell.xib in Resources */,
 				84A5AD46225F27EB0028176C /* OffLineTableViewCell.xib in Resources */,
 				84D0677E22533A4E00EA8ED7 /* shengxiao.plist in Resources */,
+				8433C55D22EEC04B00E34765 /* HomeUserCell.xib in Resources */,
 				84D0678222533A4E00EA8ED7 /* activity2.plist in Resources */,
 				848D61F122E9BA600043F314 /* VideoCell.xib in Resources */,
+				8433C55C22EEC04B00E34765 /* HomeCell.xib in Resources */,
 				84D0677F22533A4E00EA8ED7 /* emoji_sort.plist in Resources */,
 				84D0673D225269A900EA8ED7 /* MyConcernCell.xib in Resources */,
 				84D0678622533A4E00EA8ED7 /* activity.plist in Resources */,
+				8433C55222EEA74F00E34765 /* HomeJokeCell.xib in Resources */,
+				8433C56E22EEC8A800E34765 /* TheyUseCollectionCell.xib in Resources */,
 				84D0677D22533A4E00EA8ED7 /* emoji_mapping.plist in Resources */,
 				84D0672F225253EF00EA8ED7 /* default_theme.plist in Resources */,
+				8433C55E22EEC04B00E34765 /* TheyAlsoUseCell.xib in Resources */,
 				84D067622253313E00EA8ED7 /* VolcanoViewController.xib in Resources */,
 				84D067292252478400EA8ED7 /* MyOtherCell.xib in Resources */,
 				84D067552253273E00EA8ED7 /* MoreLoginViewController.storyboard in Resources */,
@@ -732,6 +793,7 @@
 				848D61F722E9BDA70043F314 /* NSData+CRC32.m in Sources */,
 				840EA11A2261D67400E095C6 /* RichLabel.swift in Sources */,
 				84FAA275224E01A60036642D /* MyTabBarViewController.swift in Sources */,
+				8433C54C22EEA54300E34765 /* TeMaiViewController.swift in Sources */,
 				84342B0422E5A13300140C1D /* VolcanoTableViewCell.swift in Sources */,
 				840EA1072261C12400E095C6 /* UserDetailCell.swift in Sources */,
 				840EA1262261DA3800E095C6 /* UserDetailNavigationBar.swift in Sources */,
@@ -743,24 +805,30 @@
 				84A5AD45225F27EB0028176C /* OffLineTableViewCell.swift in Sources */,
 				84DC7F1B22A0D00200D23242 /* EFVolcanoNavigationBar.swift in Sources */,
 				840EA1242261D71400E095C6 /* RelationRecommendCell.swift in Sources */,
+				8433C56C22EEC89000E34765 /* TheyUseCollectionCell.swift in Sources */,
 				84FAA27C224E060A0036642D /* VideoViewController.swift in Sources */,
 				84D067352252610D00EA8ED7 /* NoLoginHeaderView.swift in Sources */,
 				840EA10A2261C1E700E095C6 /* UserDetailTableView.swift in Sources */,
 				84D067612253313E00EA8ED7 /* VolcanoViewController.swift in Sources */,
 				84D0670B2251C00100EA8ED7 /* NetworkTool.swift in Sources */,
+				8433C55622EEBFF000E34765 /* TheyAlsoUseCell.swift in Sources */,
 				848D61EF22E9B9B60043F314 /* VideoPlayerCustomView.swift in Sources */,
 				848D61ED22E9B81A0043F314 /* HomeTableViewController.swift in Sources */,
 				840EA10C2261C26600E095C6 /* UserDetail.swift in Sources */,
 				848D61E922E9A8540043F314 /* CenterViewController.swift in Sources */,
+				8433C54822EEA50C00E34765 /* HomeImageViewController.swift in Sources */,
 				840EA1102261CEE200E095C6 /* Calculate.swift in Sources */,
 				84FAA282224E0C890036642D /* MyTabBar.swift in Sources */,
 				8428A55A225C7C9500ACD3F4 /* SettingModel.swift in Sources */,
 				840EA12A2261DB2E00E095C6 /* UserDetailBottomView.swift in Sources */,
+				8433C55822EEC00000E34765 /* HomeCell.swift in Sources */,
 				84D06768225332DE00EA8ED7 /* HomeNewsTitle.swift in Sources */,
 				84FAA277224E01D90036642D /* MyNavigationViewController.swift in Sources */,
 				840EA12C2261DBAC00E095C6 /* TopTabScrollView.swift in Sources */,
+				8433C54A22EEA52900E34765 /* HomeRecommendController.swift in Sources */,
 				84D0671D2252472800EA8ED7 /* MyOtherCell.swift in Sources */,
 				840EA1122261CF7600E095C6 /* NewsModel.swift in Sources */,
+				8433C54622EEA50300E34765 /* HomeJokeViewController.swift in Sources */,
 				848D61E122E847090043F314 /* SmallVideoPlayerCustomView.swift in Sources */,
 				84FAA246224E00580036642D /* ViewController.swift in Sources */,
 				84D0674C225323E600EA8ED7 /* SettingViewController.swift in Sources */,
@@ -769,6 +837,7 @@
 				848D61DD22E841CC0043F314 /* SmallVideoCell.swift in Sources */,
 				84D0671B2252472100EA8ED7 /* MyFisrtSectionCell.swift in Sources */,
 				84D4836D22E5C027000EC655 /* VolcanoChildViewController.swift in Sources */,
+				8433C56022EEC5A200E34765 /* HomeImageCollectionView.swift in Sources */,
 				8428A562225C91F900ACD3F4 /* SettingCell.swift in Sources */,
 				8428A558225C703E00ACD3F4 /* MoreLoginViewController.swift in Sources */,
 				848D61EB22E9B7F20043F314 /* VideoTableViewController.swift in Sources */,
@@ -778,6 +847,7 @@
 				848D61DB22E841490043F314 /* SmallVideoLayout.swift in Sources */,
 				846E3BC4225C65C3007864BB /* Foundation+Extension.swift in Sources */,
 				840EA1202261D6EE00E095C6 /* RelationRecommendView.swift in Sources */,
+				8433C56A22EEC72B00E34765 /* HomeImageCell.swift in Sources */,
 				84D0673C225269A900EA8ED7 /* MyConcernCell.swift in Sources */,
 				848D61D722E83EFE0043F314 /* SmallVideoViewController.swift in Sources */,
 				84FAA27A224E06020036642D /* HomeViewController.swift in Sources */,
@@ -786,9 +856,11 @@
 				84D067082251BF7100EA8ED7 /* MineViewController.swift in Sources */,
 				84D06719225240DB00EA8ED7 /* UIKit+Extension.swift in Sources */,
 				848D61F322E9BA720043F314 /* VideoCell.swift in Sources */,
+				8433C55422EEBFCC00E34765 /* HomeUserCell.swift in Sources */,
 				84D067102251C3C400EA8ED7 /* Const.swift in Sources */,
 				8440717322E6BC73006D2441 /* SVProgressHUD+Extension.swift in Sources */,
 				84A5AD42225F268C0028176C /* OfflineDownloadController.swift in Sources */,
+				8433C54F22EEA66C00E34765 /* HomeJokeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

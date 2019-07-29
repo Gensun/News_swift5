@@ -52,4 +52,3 @@ xcrun -sdk iphoneos PackageApplication -v build/Release-iphoneos/*.app -o ${outp
 #-F "_api_key=d6d3680bd40811728059f92dd6fe3b5d" \
 #-F "updateDescription=${MSG}" \
 #-F "password=${PASSWORD}" \
-#https://qiniu-storage.pgyer.com/apiv1/app/upload

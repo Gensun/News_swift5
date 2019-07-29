@@ -1,8 +1,0 @@
-app_identifier("com.ef.engage.notifications.debug") # The bundle identifier of your app
-apple_id("1412912425@qq.com") # Your Apple email address
-
-itc_team_id("118847724") # App Store Connect Team ID
-team_id("X4DCT8KJZL") # Developer Portal Team ID
-
-# For more information about the Appfile, see:
-#     https://docs.fastlane.tools/advanced/#appfile

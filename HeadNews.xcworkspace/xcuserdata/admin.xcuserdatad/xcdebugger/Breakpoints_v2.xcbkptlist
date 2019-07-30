@@ -92,7 +92,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Module/Volcano/ViewController/VolcanoViewController.swift"
-            timestampString = "585829782.951272"
+            timestampString = "586169680.3030159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -108,7 +108,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Module/Volcano/ViewController/VolcanoViewController.swift"
-            timestampString = "585829782.951332"
+            timestampString = "586169680.303079"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "46"
@@ -124,7 +124,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Module/Volcano/ViewController/VolcanoViewController.swift"
-            timestampString = "585829782.951373"
+            timestampString = "586169680.3031189"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -226,43 +226,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "HeadNews/Extension/UIKit+Extension.swift"
-            timestampString = "585743953.329602"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "170"
-            endingLineNumber = "170"
-            landmarkName = "removeSkeleton(view:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HeadNews/Extension/UIKit+Extension.swift"
-            timestampString = "585743953.329779"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
-            landmarkName = "removeSkeletonLayer()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "HeadNews/Extension/UIKit+Extension.swift"
-            timestampString = "585743953.329827"
+            timestampString = "586177725.310093"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "178"
@@ -334,7 +302,7 @@
                   moduleName = "HeadNews"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Documents/study/HeadNews/HeadNews/Module/Volcano/ViewController/SmallVideoViewController.swift"
-                  timestampString = "586075604.504564"
+                  timestampString = "586177471.109709"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "68"
@@ -349,7 +317,7 @@
                   moduleName = "HeadNews"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/admin/Documents/study/HeadNews/HeadNews/Module/Volcano/ViewController/SmallVideoViewController.swift"
-                  timestampString = "586075604.506585"
+                  timestampString = "586177471.116771"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "70"

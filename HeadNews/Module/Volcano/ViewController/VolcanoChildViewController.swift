@@ -76,12 +76,16 @@ class VolcanoChildViewController: UIViewController {
 
 extension VolcanoChildViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return smallVideos.count
+        return smallVideos.count > 0 ? smallVideos.count : 10
     }
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.EF_dequeueReusableCell(indexPath: indexPath) as VolcanoTableViewCell
-        cell.startLoading()
+        guard smallVideos.count > 0 else {
+            cell.startLoading()
+            return cell
+        }
+        cell.stopLoading()
         cell.smallVideo = smallVideos[indexPath.row]
         return cell
     }

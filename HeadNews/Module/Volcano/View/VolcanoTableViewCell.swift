@@ -13,7 +13,6 @@ public let notAnimateTag = 666
 class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
     var smallVideo = NewsModel() {
         didSet {
-            stopLoading()
             closeButton.isHidden = false
             titleLabel.attributedText = smallVideo.raw_data.attrbutedText
             if let largeImage = smallVideo.raw_data.large_image_list.first {
@@ -22,7 +21,7 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
                 }
             } else if let firstImage = smallVideo.raw_data.first_frame_image_list.first {
                 if let url = URL(string: firstImage.urlString) {
-                   imageView.kf.setImage(with: url)
+                    imageView.kf.setImage(with: url)
                 }
             }
             diggCountLabel.text = smallVideo.raw_data.action.diggCount + "赞"
@@ -30,17 +29,6 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
         }
     }
 
-    lazy var overlayLayer : CALayer = {
-        var layer = CALayer()
-        var imageFrame = self.imageView.bounds
-        imageFrame.size.width = UIApplication.shared.keyWindow?.bounds.width ?? self.imageView.bounds.width
-        layer.frame = imageFrame
-        layer.shouldRasterize = true
-        layer.rasterizationScale = UIScreen.main.scale
-        return layer
-    }()
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -52,30 +40,28 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
         diggCountLabel.theme_textColor = "colors.moreLoginTextColor"
         playCountButton.theme_setImage("images.ugc_video_list_play_32x32_", forState: .normal)
         closeButton.theme_setImage("images.ImgPic_close_24x24_", forState: .normal)
-        
-        //Add color layer
-//        imageView.layer.sublayers = nil
-//        imageView.layer.addSublayer(overlayLayer)
-//        overlayLayer.backgroundColor = UIColor.blue.cgColor
     }
 
     /// 预览图
     @IBOutlet var imageView: UIImageView! {
         didSet {
             imageView.tag = notAnimateTag
-//            imageView.layer.cornerRadius = 6
-//            imageView.clipsToBounds = true
-
         }
     }
+
     /// 标题
     @IBOutlet var titleLabel: UILabel!
     /// 赞
     @IBOutlet var diggCountLabel: UILabel!
     /// 播放次数
-    @IBOutlet var playCountButton: UIButton!
+    @IBOutlet var playCountButton: UIButton! {
+        didSet {
+            playCountButton.tag = notAnimateTag
+        }
+    }
+
     /// 关闭按钮
-    @IBOutlet var closeButton: UIButton!{
+    @IBOutlet var closeButton: UIButton! {
         didSet {
             closeButton.tag = notAnimateTag
         }
@@ -85,21 +71,16 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
     }
 
     private var isLoading = false
-  
+
     override func prepareForReuse() {
-        super.prepareForReuse()
         defaultState()
+        super.prepareForReuse()
     }
 
     private func defaultState() {
         titleLabel.text = ""
         diggCountLabel.text = ""
         playCountButton.setTitle("", for: .normal)
-        imageView.image = nil
-        
-        if closeButton != nil {
-            closeButton.isHidden = true
-        }
     }
 
     func startLoading() {
@@ -118,6 +99,6 @@ class VolcanoTableViewCell: UICollectionViewCell, RegisterCellFromNib {
         }
 
         isLoading = false
-        self.removeSkeleton(view: self.contentView)
+        removeSkeleton(view: contentView)
     }
 }

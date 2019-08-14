@@ -27,6 +27,7 @@ class MineViewController: UITableViewController {
 
         tableView.EF_registerCell(cell: MyFisrtSectionCell.self)
         tableView.EF_registerCell(cell: MyOtherCell.self)
+        
         NetworkTool.loadMyCellData {
             self.sections = $0
             self.tableView.reloadData()

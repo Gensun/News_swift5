@@ -2,7 +2,7 @@
 //  NewsLib.h
 //  NewsLib
 //
-//  Created by Cheng Sun on 8/13/19.
+//  Created by Cheng Sun on 8/14/19.
 //  Copyright © 2019 EF. All rights reserved.
 //
 
@@ -15,4 +15,8 @@ FOUNDATION_EXPORT double NewsLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char NewsLibVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <NewsLib/PublicHeader.h>
+
+
+#import "NSData+CRC32.h"
+#import <zlib.h>
 

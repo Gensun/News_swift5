@@ -27,5 +27,5 @@ abstract_target 'NEWS' do
     pod 'SwiftLint'
     
     target 'HeadNews'
-    target 'NewsLib'
+    target 'NewsLibs'
 end

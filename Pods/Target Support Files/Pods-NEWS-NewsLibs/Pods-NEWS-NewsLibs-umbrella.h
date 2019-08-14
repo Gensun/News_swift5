@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_NEWS_NewsLibVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_NEWS_NewsLibVersionString[];
+FOUNDATION_EXPORT double Pods_NEWS_NewsLibsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_NEWS_NewsLibsVersionString[];
 
